@@ -1,0 +1,28 @@
+CENTRO DE CONTROL TDAH · v2.0.0
+================================
+
+Archivos (deben ir juntos en la misma carpeta):
+  index.html             la app completa
+  manifest.json          nombre, ícono y modo pantalla completa
+  sw.js                  modo sin internet
+  icon-192.png, icon-512.png, icon-maskable-512.png, apple-touch-icon.png
+
+CÓMO INSTALARLA EN EL TELÉFONO
+Una PWA necesita estar en una dirección https. Opción gratis y permanente: GitHub Pages.
+
+  1. Crea una cuenta en github.com.
+  2. Crea un repositorio nuevo, público (ej: centro-tdah).
+  3. "Add file" > "Upload files" y sube los 7 archivos de esta carpeta. Confirma con "Commit changes".
+  4. Settings > Pages > Source: "Deploy from a branch", rama "main", carpeta "/ (root)". Guarda.
+  5. En 1 o 2 minutos tendrás tu enlace: https://TU-USUARIO.github.io/centro-tdah/
+
+Luego, en el teléfono:
+  iPhone:  abre el enlace en Safari > Compartir > "Agregar a inicio".
+  Android: abre el enlace en Chrome > menú ⋮ > "Instalar app".
+
+Tus datos se guardan solo en tu teléfono (localStorage).
+Haz un respaldo de vez en cuando en Sistema > Respaldo de datos.
+
+ACTUALIZAR LA APP
+Reemplaza index.html en GitHub y sube el número de VERSION en sw.js.
+Tus datos no se pierden al actualizar.

@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Centro de Control TDAH",
+  "short_name": "Centro TDAH",
+  "description": "Misiones diarias, batería mental, finanzas en CLP y premios. Hecha a medida para Eliezer.",
+  "lang": "es-CL",
+  "dir": "ltr",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone"],
+  "orientation": "portrait",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "categories": ["productivity", "finance", "lifestyle"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Misiones de hoy", "short_name": "Hoy", "url": "./?tab=hoy", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Dado y temporizador", "short_name": "Acción", "url": "./?tab=accion", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Finanzas", "short_name": "Finanzas", "url": "./?tab=finanzas", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
