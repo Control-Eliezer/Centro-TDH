@@ -1,0 +1,1106 @@
+{
+ "tipo": "LOTE",
+ "parches": [
+  {
+   "tipo": "CONFIG",
+   "datos": {
+    "nombre": "Eliezer"
+   }
+  },
+  {
+   "tipo": "HORARIO",
+   "datos": {
+    "turnos": [
+     {
+      "dias": "lunes a viernes",
+      "bloques": [
+       {
+        "entrada": "10:30",
+        "salida": "13:30"
+       },
+       {
+        "entrada": "17:00",
+        "salida": "23:00"
+       }
+      ]
+     }
+    ],
+    "salirAntes": 30,
+    "aviso": 10,
+    "despertar": "08:30",
+    "dormir": "01:00",
+    "inicioDia": 4
+   }
+  },
+  {
+   "tipo": "ZONAS",
+   "datos": {
+    "lunes": "Cocina",
+    "martes": "Baño",
+    "miércoles": "Living",
+    "jueves": "Ropa: lavar y doblar",
+    "viernes": "Patio y frontis"
+   }
+  },
+  {
+   "tipo": "RUTINAS_ADD",
+   "datos": [
+    {
+     "letra": "H",
+     "nombre": "Mañana: agua, cama, ducha y cara",
+     "hora": "08:30",
+     "duracion": 60,
+     "dias": "lunes a viernes",
+     "color": "#e9b463"
+    },
+    {
+     "letra": "M",
+     "nombre": "Mascota: comida y agua fresca",
+     "hora": "09:30",
+     "duracion": 10,
+     "dias": "todos",
+     "color": "#e08a5b"
+    },
+    {
+     "letra": "O",
+     "nombre": "10 minutos de mantención",
+     "hora": "09:40",
+     "duracion": 10,
+     "dias": "lunes a viernes",
+     "color": "#c9735f"
+    },
+    {
+     "letra": "E",
+     "nombre": "Entreno en casa",
+     "hora": "14:15",
+     "duracion": 30,
+     "dias": [
+      1,
+      3,
+      5
+     ],
+     "color": "#6f8db8"
+    },
+    {
+     "letra": "T",
+     "nombre": "Estudio del trabajo",
+     "hora": "15:30",
+     "duracion": 15,
+     "dias": [
+      3
+     ],
+     "color": "#8fa9cf"
+    },
+    {
+     "letra": "N",
+     "nombre": "Cierre: ropa de mañana lista y cocina despejada",
+     "hora": "23:15",
+     "duracion": 20,
+     "dias": "lunes a viernes",
+     "color": "#9a7e9e"
+    },
+    {
+     "letra": "P",
+     "nombre": "Compras y cocinar porciones",
+     "hora": "10:30",
+     "duracion": 120,
+     "dias": [
+      6
+     ],
+     "color": "#d98f52"
+    },
+    {
+     "letra": "R",
+     "nombre": "Ropa y lo pesado de la semana",
+     "hora": "15:00",
+     "duracion": 90,
+     "dias": [
+      6
+     ],
+     "color": "#b9665a"
+    }
+   ]
+  },
+  {
+   "tipo": "MISIONES_ADD",
+   "datos": [
+    {
+     "titulo": "Salir a tiempo",
+     "desc": "30 minutos antes de entrar, sin apuro",
+     "xp": 15,
+     "monedas": 5,
+     "energia": "baja",
+     "dias": "lunes a viernes"
+    }
+   ]
+  },
+  {
+   "tipo": "FINANZAS_PLAN",
+   "datos": {
+    "ingresos": {
+     "sueldo": 550000,
+     "propina": 70000,
+     "roomie": 170000
+    },
+    "fijos": [
+     {
+      "nombre": "Arriendo",
+      "monto": 280000,
+      "categoria": "arriendo"
+     },
+     {
+      "nombre": "Gas",
+      "monto": 25000,
+      "categoria": "cuentas"
+     }
+    ],
+    "comidaSemana": 15000,
+    "colchonSemana": 5000,
+    "metaSinDeuda": "2027-01-15",
+    "filtroCompras": "medio",
+    "nivelAhorro": "medio",
+    "rituales": {
+     "sueldo": true,
+     "diaSueldo": 30,
+     "propinas": true,
+     "diaPropinas": "martes"
+    },
+    "porcentajes": {
+     "esenciales": 40,
+     "cuentas": 30,
+     "deuda": 20,
+     "ahorro": 10
+    }
+   }
+  },
+  {
+   "tipo": "FINANZAS_CONFIG",
+   "datos": {
+    "deudas": [
+     {
+      "nombre": "Tarjeta de crédito",
+      "monto": 1102000,
+      "saldo": 1102000
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "RECURRENTES_ADD",
+   "datos": [
+    {
+     "titulo": "Corte de pelo",
+     "cada": 1,
+     "unidad": "meses",
+     "proxima": "2026-11-21",
+     "monto": 15000,
+     "categoria": "otro"
+    },
+    {
+     "titulo": "Limpieza profunda: ventanales",
+     "cada": 1,
+     "unidad": "meses",
+     "proxima": "2026-11-07"
+    },
+    {
+     "titulo": "Cortar pasto del patio y el frontis",
+     "cada": 3,
+     "unidad": "semanas",
+     "proxima": "2026-11-08"
+    },
+    {
+     "titulo": "Limpieza profunda: detrás de la cocina y la lavadora",
+     "cada": 1,
+     "unidad": "meses",
+     "proxima": "2026-11-14"
+    },
+    {
+     "titulo": "Limpieza profunda: garaje",
+     "cada": 1,
+     "unidad": "meses",
+     "proxima": "2026-11-21"
+    },
+    {
+     "titulo": "Limpieza profunda: refri por dentro",
+     "cada": 2,
+     "unidad": "semanas",
+     "proxima": "2026-11-13"
+    },
+    {
+     "titulo": "Cambiar sábanas",
+     "cada": 1,
+     "unidad": "semanas",
+     "proxima": "2026-11-07"
+    }
+   ]
+  },
+  {
+   "tipo": "METAS_ADD",
+   "datos": [
+    {
+     "nombre": "Regalo de cumpleaños (febrero)",
+     "precio": 120000,
+     "necesario": true,
+     "urgente": true,
+     "fecha": "2027-02-01",
+     "nota": "Ideas: Wacom Intuos Small Bluetooth, kit barista de filtrado, NanoFoamer + jarra"
+    },
+    {
+     "nombre": "Gimnasio + proteína (primer mes)",
+     "precio": 50000,
+     "necesario": true,
+     "urgente": false
+    }
+   ]
+  },
+  {
+   "tipo": "DESPENSA_ADD",
+   "datos": [
+    {
+     "nombre": "Papel higiénico (4 rollos)",
+     "dias": 10,
+     "precio": 3500,
+     "tipo": "aseo"
+    },
+    {
+     "nombre": "Detergente para ropa",
+     "dias": 30,
+     "precio": 6000,
+     "tipo": "aseo"
+    },
+    {
+     "nombre": "Lavalozas",
+     "dias": 21,
+     "precio": 1800,
+     "tipo": "aseo"
+    },
+    {
+     "nombre": "Cloro",
+     "dias": 30,
+     "precio": 1500,
+     "tipo": "aseo"
+    },
+    {
+     "nombre": "Bolsas de basura",
+     "dias": 30,
+     "precio": 1500,
+     "tipo": "aseo"
+    },
+    {
+     "nombre": "Esponjas",
+     "dias": 21,
+     "precio": 1200,
+     "tipo": "aseo"
+    },
+    {
+     "nombre": "Pasta de dientes",
+     "dias": 30,
+     "precio": 2000,
+     "tipo": "higiene"
+    },
+    {
+     "nombre": "Shampoo",
+     "dias": 45,
+     "precio": 3500,
+     "tipo": "higiene"
+    },
+    {
+     "nombre": "Jabón",
+     "dias": 21,
+     "precio": 1500,
+     "tipo": "higiene"
+    },
+    {
+     "nombre": "Desodorante",
+     "dias": 30,
+     "precio": 3000,
+     "tipo": "higiene"
+    },
+    {
+     "nombre": "Huevos (bandeja de 30)",
+     "dias": 10,
+     "precio": 7500,
+     "tipo": "despensa"
+    },
+    {
+     "nombre": "Arroz 1 kg",
+     "dias": 10,
+     "precio": 1300,
+     "tipo": "despensa"
+    },
+    {
+     "nombre": "Avena 1 kg",
+     "dias": 14,
+     "precio": 2000,
+     "tipo": "despensa"
+    },
+    {
+     "nombre": "Lentejas 1 kg",
+     "dias": 14,
+     "precio": 2000,
+     "tipo": "despensa"
+    },
+    {
+     "nombre": "Fideos 400 g",
+     "dias": 7,
+     "precio": 900,
+     "tipo": "despensa"
+    },
+    {
+     "nombre": "Aceite 1 L",
+     "dias": 30,
+     "precio": 2900,
+     "tipo": "despensa"
+    },
+    {
+     "nombre": "Leche (3 litros)",
+     "dias": 7,
+     "precio": 3300,
+     "tipo": "despensa"
+    },
+    {
+     "nombre": "Plátanos 1 kg",
+     "dias": 5,
+     "precio": 1500,
+     "tipo": "despensa"
+    },
+    {
+     "nombre": "Sal",
+     "dias": 60,
+     "precio": 600,
+     "tipo": "despensa"
+    },
+    {
+     "nombre": "Comida de la perrita",
+     "dias": 30,
+     "precio": 0,
+     "tipo": "mascota"
+    }
+   ]
+  },
+  {
+   "tipo": "COMIDAS",
+   "datos": {
+    "trabajo": [
+     "desayuno"
+    ],
+    "libre": [
+     "desayuno",
+     "almuerzo",
+     "cena"
+    ]
+   }
+  },
+  {
+   "tipo": "PAUSA",
+   "datos": [
+    "Comer algo",
+    "Tomar agua",
+    "Comida y agua para tu perrita"
+   ]
+  },
+  {
+   "tipo": "RECETAS_ADD",
+   "datos": [
+    {
+     "nombre": "Avena con leche y plátano",
+     "comida": "desayuno",
+     "costo": 500,
+     "minutos": 5,
+     "esfuerzo": "rapida",
+     "nivel": "barata",
+     "ingredientes": [
+      {
+       "nombre": "Avena",
+       "cantidad": "4 cucharadas",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Leche",
+       "cantidad": "1 taza",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Plátanos",
+       "cantidad": "1 unidad",
+       "precio": 0,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Calienta la leche 1 minuto en el microondas o en una olla.",
+      "Agrega la avena y revuelve; deja reposar 2 minutos.",
+      "Corta el plátano encima. Si tienes canela, un poco."
+     ]
+    },
+    {
+     "nombre": "Pan con huevo revuelto",
+     "comida": "desayuno",
+     "costo": 500,
+     "minutos": 8,
+     "esfuerzo": "rapida",
+     "nivel": "barata",
+     "ingredientes": [
+      {
+       "nombre": "Huevos",
+       "cantidad": "2 unidades",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Pan",
+       "cantidad": "1 unidad",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Aceite",
+       "cantidad": "1 chorrito",
+       "precio": 0,
+       "basico": true
+      },
+      {
+       "nombre": "Sal",
+       "cantidad": "pizca",
+       "precio": 0,
+       "basico": true
+      }
+     ],
+     "pasos": [
+      "Bate los huevos con una pizca de sal.",
+      "Sartén con un chorrito de aceite a fuego medio.",
+      "Revuelve suave hasta que cuajen, sin secarlos.",
+      "Sirve en el pan."
+     ]
+    },
+    {
+     "nombre": "Panqueques de avena y plátano",
+     "comida": "desayuno",
+     "costo": 600,
+     "minutos": 15,
+     "esfuerzo": "media",
+     "nivel": "normal",
+     "ingredientes": [
+      {
+       "nombre": "Avena",
+       "cantidad": "1/2 taza",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Plátanos",
+       "cantidad": "1 unidad",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Huevos",
+       "cantidad": "1 unidad",
+       "precio": 0,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Muele la avena (licuadora) o úsala tal cual.",
+      "Aplasta el plátano y mezcla con el huevo y la avena.",
+      "Cocina cucharadas de mezcla en sartén con poco aceite, 2 minutos por lado."
+     ]
+    },
+    {
+     "nombre": "Tortilla de papas (tipo española)",
+     "comida": "desayuno",
+     "costo": 900,
+     "minutos": 25,
+     "esfuerzo": "media",
+     "nivel": "normal",
+     "ingredientes": [
+      {
+       "nombre": "Huevos",
+       "cantidad": "3 unidades",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Papas",
+       "cantidad": "2 unidades",
+       "precio": 900,
+       "basico": false
+      },
+      {
+       "nombre": "Cebolla",
+       "cantidad": "1/2 unidad",
+       "precio": 300,
+       "basico": false
+      },
+      {
+       "nombre": "Aceite",
+       "cantidad": "2 cucharadas",
+       "precio": 0,
+       "basico": true
+      }
+     ],
+     "pasos": [
+      "Corta papas y cebolla en láminas finas.",
+      "Fríelas a fuego bajo 12 minutos hasta que estén blandas.",
+      "Mézclalas con los huevos batidos y sal.",
+      "Cuaja en sartén tapada a fuego bajo; da vuelta con un plato."
+     ]
+    },
+    {
+     "nombre": "Lentejas con arroz (olla para 3 días)",
+     "comida": "almuerzo",
+     "costo": 1000,
+     "minutos": 45,
+     "esfuerzo": "media",
+     "nivel": "barata",
+     "etiquetas": [
+      "alta en proteína",
+      "porciones"
+     ],
+     "ingredientes": [
+      {
+       "nombre": "Lentejas",
+       "cantidad": "2 tazas",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Arroz",
+       "cantidad": "1 taza",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Cebolla",
+       "cantidad": "1 unidad",
+       "precio": 300,
+       "basico": false
+      },
+      {
+       "nombre": "Zanahoria",
+       "cantidad": "1 unidad",
+       "precio": 250,
+       "basico": false
+      },
+      {
+       "nombre": "Sal",
+       "cantidad": "al gusto",
+       "precio": 0,
+       "basico": true
+      }
+     ],
+     "pasos": [
+      "Lava las lentejas. No hace falta remojar.",
+      "Sofríe cebolla y zanahoria picadas 5 minutos.",
+      "Agrega lentejas y 3 veces su volumen de agua; cocina 30 minutos.",
+      "Cocina el arroz aparte. Guarda en tuppers para 3 días."
+     ]
+    },
+    {
+     "nombre": "Arroz con huevo frito y tomate",
+     "comida": "almuerzo",
+     "costo": 700,
+     "minutos": 20,
+     "esfuerzo": "rapida",
+     "nivel": "barata",
+     "ingredientes": [
+      {
+       "nombre": "Arroz",
+       "cantidad": "1/2 taza",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Huevos",
+       "cantidad": "2 unidades",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Tomate",
+       "cantidad": "1 unidad",
+       "precio": 400,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Cocina el arroz (o usa el de la olla del sábado).",
+      "Fríe los huevos.",
+      "Sirve con tomate picado y sal."
+     ]
+    },
+    {
+     "nombre": "Pollo al horno con papas",
+     "comida": "almuerzo",
+     "costo": 2200,
+     "minutos": 60,
+     "esfuerzo": "media",
+     "nivel": "normal",
+     "etiquetas": [
+      "porciones"
+     ],
+     "ingredientes": [
+      {
+       "nombre": "Trutro de pollo",
+       "cantidad": "1 kg",
+       "precio": 3800,
+       "basico": false
+      },
+      {
+       "nombre": "Papas",
+       "cantidad": "1 kg",
+       "precio": 1000,
+       "basico": false
+      },
+      {
+       "nombre": "Aceite",
+       "cantidad": "2 cucharadas",
+       "precio": 0,
+       "basico": true
+      },
+      {
+       "nombre": "Sal",
+       "cantidad": "al gusto",
+       "precio": 0,
+       "basico": true
+      }
+     ],
+     "pasos": [
+      "Corta las papas en gajos y ponlas en la lata con aceite y sal.",
+      "Pon el pollo encima, con sal y lo que tengas (orégano, ajo).",
+      "Horno a 200 °C unos 50 minutos, dando vuelta a la mitad.",
+      "Rinde para 3 o 4 comidas."
+     ]
+    },
+    {
+     "nombre": "Fideos con atún y tomate",
+     "comida": "cena",
+     "costo": 1400,
+     "minutos": 20,
+     "esfuerzo": "rapida",
+     "nivel": "barata",
+     "ingredientes": [
+      {
+       "nombre": "Fideos 400 g",
+       "cantidad": "1/2 paquete",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Atún en lata",
+       "cantidad": "1 lata",
+       "precio": 1900,
+       "basico": false
+      },
+      {
+       "nombre": "Tomate",
+       "cantidad": "1 unidad",
+       "precio": 400,
+       "basico": false
+      },
+      {
+       "nombre": "Cebolla",
+       "cantidad": "1/2 unidad",
+       "precio": 300,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Cuece los fideos en agua con sal.",
+      "Sofríe cebolla y tomate picados 5 minutos.",
+      "Agrega el atún escurrido y mezcla con los fideos."
+     ]
+    },
+    {
+     "nombre": "Omelette de verduras",
+     "comida": "cena",
+     "costo": 800,
+     "minutos": 12,
+     "esfuerzo": "rapida",
+     "nivel": "barata",
+     "ingredientes": [
+      {
+       "nombre": "Huevos",
+       "cantidad": "3 unidades",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Cebolla",
+       "cantidad": "1/4 unidad",
+       "precio": 150,
+       "basico": false
+      },
+      {
+       "nombre": "Tomate",
+       "cantidad": "1/2 unidad",
+       "precio": 200,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Pica las verduras y saltéalas 3 minutos.",
+      "Agrega los huevos batidos con sal.",
+      "Cocina tapado a fuego bajo y dobla por la mitad."
+     ]
+    },
+    {
+     "nombre": "Porotos con tallarines",
+     "comida": "cena",
+     "costo": 1100,
+     "minutos": 50,
+     "esfuerzo": "media",
+     "nivel": "barata",
+     "etiquetas": [
+      "porciones",
+      "plato chileno"
+     ],
+     "ingredientes": [
+      {
+       "nombre": "Porotos 1 kg",
+       "cantidad": "2 tazas",
+       "precio": 2200,
+       "basico": false
+      },
+      {
+       "nombre": "Fideos 400 g",
+       "cantidad": "1 taza",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Zapallo",
+       "cantidad": "1 trozo",
+       "precio": 500,
+       "basico": false
+      },
+      {
+       "nombre": "Cebolla",
+       "cantidad": "1 unidad",
+       "precio": 300,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Remoja los porotos la noche anterior.",
+      "Cuécelos con el zapallo en cubos 40 minutos.",
+      "Agrega cebolla sofrita y los tallarines los últimos 10 minutos."
+     ]
+    },
+    {
+     "nombre": "Quesadillas de huevo y queso",
+     "comida": "cena",
+     "costo": 1200,
+     "minutos": 10,
+     "esfuerzo": "rapida",
+     "nivel": "normal",
+     "ingredientes": [
+      {
+       "nombre": "Tortillas",
+       "cantidad": "2 unidades",
+       "precio": 800,
+       "basico": false
+      },
+      {
+       "nombre": "Queso laminado",
+       "cantidad": "2 láminas",
+       "precio": 600,
+       "basico": false
+      },
+      {
+       "nombre": "Huevos",
+       "cantidad": "2 unidades",
+       "precio": 0,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Haz huevo revuelto.",
+      "Rellena las tortillas con huevo y queso.",
+      "Dora en sartén seca 2 minutos por lado."
+     ]
+    },
+    {
+     "nombre": "Arroz con pollo (olla para 3 días)",
+     "comida": "almuerzo",
+     "costo": 1800,
+     "minutos": 40,
+     "esfuerzo": "media",
+     "nivel": "barata",
+     "etiquetas": [
+      "porciones"
+     ],
+     "ingredientes": [
+      {
+       "nombre": "Trutro de pollo",
+       "cantidad": "1/2 kg",
+       "precio": 1900,
+       "basico": false
+      },
+      {
+       "nombre": "Arroz",
+       "cantidad": "1 1/2 taza",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Zanahoria",
+       "cantidad": "1 unidad",
+       "precio": 250,
+       "basico": false
+      },
+      {
+       "nombre": "Cebolla",
+       "cantidad": "1 unidad",
+       "precio": 300,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Dora el pollo en trozos en una olla.",
+      "Agrega cebolla y zanahoria picadas.",
+      "Suma el arroz, 3 tazas de agua y sal; cocina tapado 20 minutos."
+     ]
+    },
+    {
+     "nombre": "Batido de maní y plátano",
+     "comida": "batido",
+     "costo": 900,
+     "minutos": 3,
+     "esfuerzo": "rapida",
+     "nivel": "normal",
+     "fase": "post-deuda",
+     "etiquetas": [
+      "después de la deuda"
+     ],
+     "ingredientes": [
+      {
+       "nombre": "Leche",
+       "cantidad": "1 vaso",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Plátanos",
+       "cantidad": "1 unidad",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Avena",
+       "cantidad": "3 cucharadas",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Mantequilla de maní",
+       "cantidad": "1 cucharada",
+       "precio": 3500,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Todo a la licuadora 1 minuto.",
+      "Truco: plátano congelado en trozos lo deja espeso y heladito."
+     ]
+    },
+    {
+     "nombre": "Batido de chocolate",
+     "comida": "batido",
+     "costo": 700,
+     "minutos": 3,
+     "esfuerzo": "rapida",
+     "nivel": "barata",
+     "fase": "post-deuda",
+     "ingredientes": [
+      {
+       "nombre": "Leche",
+       "cantidad": "1 vaso",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Plátanos",
+       "cantidad": "1 unidad",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Avena",
+       "cantidad": "3 cucharadas",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Cacao amargo",
+       "cantidad": "1 cucharada",
+       "precio": 2500,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Todo a la licuadora 1 minuto."
+     ]
+    },
+    {
+     "nombre": "Batido de canela",
+     "comida": "batido",
+     "costo": 600,
+     "minutos": 3,
+     "esfuerzo": "rapida",
+     "nivel": "barata",
+     "fase": "post-deuda",
+     "ingredientes": [
+      {
+       "nombre": "Leche",
+       "cantidad": "1 vaso",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Plátanos",
+       "cantidad": "1 unidad",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Avena",
+       "cantidad": "3 cucharadas",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Canela",
+       "cantidad": "1 pizca",
+       "precio": 800,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Todo a la licuadora 1 minuto. Sabe como arroz con leche."
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "ENTRENO",
+   "datos": {
+    "nombre": "En casa · fase 1",
+    "revisarCada": 28,
+    "sesiones": [
+     {
+      "dia": "lunes",
+      "titulo": "Cuerpo completo A",
+      "ejercicios": [
+       {
+        "nombre": "Calentar: trote en el lugar",
+        "series": 1,
+        "reps": "3 min"
+       },
+       {
+        "nombre": "Sentadillas",
+        "series": 3,
+        "reps": "15"
+       },
+       {
+        "nombre": "Flexiones",
+        "series": 3,
+        "reps": "8-12",
+        "nota": "con rodillas si cuesta"
+       },
+       {
+        "nombre": "Zancadas",
+        "series": 3,
+        "reps": "10 por pierna"
+       },
+       {
+        "nombre": "Fondos en silla",
+        "series": 3,
+        "reps": "8-10"
+       },
+       {
+        "nombre": "Plancha",
+        "series": 3,
+        "reps": "30 s"
+       }
+      ]
+     },
+     {
+      "dia": "miércoles",
+      "titulo": "Cuerpo completo B",
+      "ejercicios": [
+       {
+        "nombre": "Calentar: saltos suaves",
+        "series": 1,
+        "reps": "3 min"
+       },
+       {
+        "nombre": "Sentadilla búlgara en silla",
+        "series": 3,
+        "reps": "8 por pierna"
+       },
+       {
+        "nombre": "Flexiones inclinadas en mesa",
+        "series": 3,
+        "reps": "10-12"
+       },
+       {
+        "nombre": "Puente de glúteo",
+        "series": 3,
+        "reps": "15"
+       },
+       {
+        "nombre": "Remo con mochila cargada",
+        "series": 3,
+        "reps": "12"
+       },
+       {
+        "nombre": "Plancha lateral",
+        "series": 3,
+        "reps": "20 s por lado"
+       }
+      ]
+     },
+     {
+      "dia": "viernes",
+      "titulo": "Circuito de energía",
+      "ejercicios": [
+       {
+        "nombre": "Calentar: trote en el lugar",
+        "series": 1,
+        "reps": "3 min"
+       },
+       {
+        "nombre": "Burpees",
+        "series": 3,
+        "reps": "8"
+       },
+       {
+        "nombre": "Sentadilla con salto",
+        "series": 3,
+        "reps": "10"
+       },
+       {
+        "nombre": "Flexiones",
+        "series": 3,
+        "reps": "al máximo menos 2"
+       },
+       {
+        "nombre": "Escaladores",
+        "series": 3,
+        "reps": "30 s"
+       },
+       {
+        "nombre": "Superman",
+        "series": 3,
+        "reps": "12"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
