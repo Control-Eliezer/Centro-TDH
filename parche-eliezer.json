@@ -55,7 +55,7 @@
     },
     {
      "letra": "M",
-     "nombre": "Mascota: comida y agua fresca",
+     "nombre": "Mascotas: comida y agua fresca",
      "hora": "09:30",
      "duracion": 10,
      "dias": "todos",
@@ -71,12 +71,13 @@
     },
     {
      "letra": "E",
-     "nombre": "Entreno en casa",
+     "nombre": "Entreno en casa (35 min)",
      "hora": "14:15",
-     "duracion": 30,
+     "duracion": 35,
      "dias": [
       1,
-      3,
+      2,
+      4,
       5
      ],
      "color": "#6f8db8"
@@ -188,14 +189,6 @@
   {
    "tipo": "RECURRENTES_ADD",
    "datos": [
-    {
-     "titulo": "Corte de pelo",
-     "cada": 1,
-     "unidad": "meses",
-     "proxima": "2026-11-21",
-     "monto": 15000,
-     "categoria": "otro"
-    },
     {
      "titulo": "Limpieza profunda: ventanales",
      "cada": 1,
@@ -981,18 +974,322 @@
      "pasos": [
       "Todo a la licuadora 1 minuto. Sabe como arroz con leche."
      ]
+    },
+    {
+     "nombre": "Porotos verdes guisados con arroz",
+     "comida": "almuerzo",
+     "costo": 800,
+     "minutos": 30,
+     "esfuerzo": "media",
+     "nivel": "barata",
+     "etiquetas": [
+      "temporada",
+      "porciones"
+     ],
+     "ingredientes": [
+      {
+       "nombre": "Porotos verdes",
+       "cantidad": "1/2 kg",
+       "precio": 1500,
+       "basico": false
+      },
+      {
+       "nombre": "Cebolla",
+       "cantidad": "1 unidad",
+       "precio": 300,
+       "basico": false
+      },
+      {
+       "nombre": "Zanahoria",
+       "cantidad": "1 unidad",
+       "precio": 250,
+       "basico": false
+      },
+      {
+       "nombre": "Arroz",
+       "cantidad": "1 taza",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Huevos",
+       "cantidad": "1 unidad",
+       "precio": 0,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Corta los porotos verdes en trozos.",
+      "Sofríe cebolla y zanahoria 5 minutos.",
+      "Agrega los porotos y un poco de agua; cocina tapado 15 minutos.",
+      "Al final revuelve un huevo batido. Sirve con arroz."
+     ]
+    },
+    {
+     "nombre": "Budín de acelga",
+     "comida": "cena",
+     "costo": 900,
+     "minutos": 35,
+     "esfuerzo": "media",
+     "nivel": "barata",
+     "etiquetas": [
+      "temporada"
+     ],
+     "ingredientes": [
+      {
+       "nombre": "Acelga",
+       "cantidad": "1 atado",
+       "precio": 800,
+       "basico": false
+      },
+      {
+       "nombre": "Huevos",
+       "cantidad": "3 unidades",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Pan",
+       "cantidad": "1 unidad",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Leche",
+       "cantidad": "1/2 taza",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Queso laminado",
+       "cantidad": "2 láminas",
+       "precio": 600,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Cuece la acelga 5 minutos y pícala.",
+      "Mezcla con huevos, pan remojado en leche y sal.",
+      "Al horno o sartén tapada, 20 minutos, con queso encima al final."
+     ]
+    },
+    {
+     "nombre": "Tortilla de zapallo italiano",
+     "comida": "cena",
+     "costo": 700,
+     "minutos": 20,
+     "esfuerzo": "rapida",
+     "nivel": "barata",
+     "etiquetas": [
+      "temporada"
+     ],
+     "ingredientes": [
+      {
+       "nombre": "Zapallo italiano",
+       "cantidad": "2 unidades",
+       "precio": 700,
+       "basico": false
+      },
+      {
+       "nombre": "Huevos",
+       "cantidad": "3 unidades",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Cebolla",
+       "cantidad": "1/2 unidad",
+       "precio": 150,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Ralla el zapallo y exprímele el agua.",
+      "Sofríe la cebolla, suma el zapallo 5 minutos.",
+      "Agrega los huevos batidos y cuaja tapado a fuego bajo."
+     ]
+    },
+    {
+     "nombre": "Habas salteadas con huevo",
+     "comida": "almuerzo",
+     "costo": 900,
+     "minutos": 25,
+     "esfuerzo": "media",
+     "nivel": "barata",
+     "etiquetas": [
+      "temporada",
+      "proteína vegetal"
+     ],
+     "ingredientes": [
+      {
+       "nombre": "Habas",
+       "cantidad": "1/2 kg",
+       "precio": 1200,
+       "basico": false
+      },
+      {
+       "nombre": "Huevos",
+       "cantidad": "2 unidades",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Cebolla",
+       "cantidad": "1/2 unidad",
+       "precio": 150,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Desgrana y cuece las habas 8 minutos.",
+      "Saltéalas con cebolla.",
+      "Agrega 2 huevos revueltos encima."
+     ]
+    },
+    {
+     "nombre": "Charquicán (olla para 3 días)",
+     "comida": "almuerzo",
+     "costo": 1100,
+     "minutos": 45,
+     "esfuerzo": "media",
+     "nivel": "barata",
+     "etiquetas": [
+      "plato chileno",
+      "porciones"
+     ],
+     "ingredientes": [
+      {
+       "nombre": "Papas",
+       "cantidad": "1 kg",
+       "precio": 1000,
+       "basico": false
+      },
+      {
+       "nombre": "Zapallo",
+       "cantidad": "1 trozo",
+       "precio": 500,
+       "basico": false
+      },
+      {
+       "nombre": "Carne molida",
+       "cantidad": "250 g",
+       "precio": 2300,
+       "basico": false
+      },
+      {
+       "nombre": "Cebolla",
+       "cantidad": "1 unidad",
+       "precio": 300,
+       "basico": false
+      },
+      {
+       "nombre": "Huevos",
+       "cantidad": "1 por plato",
+       "precio": 0,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Dora la carne con cebolla.",
+      "Agrega papas y zapallo en cubos, cubre con agua y cocina 25 minutos.",
+      "Muele un poco con tenedor. Sirve con huevo frito."
+     ]
+    },
+    {
+     "nombre": "Sopa de verduras con fideos",
+     "comida": "cena",
+     "costo": 600,
+     "minutos": 25,
+     "esfuerzo": "rapida",
+     "nivel": "barata",
+     "etiquetas": [
+      "liviana"
+     ],
+     "ingredientes": [
+      {
+       "nombre": "Zanahoria",
+       "cantidad": "1 unidad",
+       "precio": 250,
+       "basico": false
+      },
+      {
+       "nombre": "Papas",
+       "cantidad": "1 unidad",
+       "precio": 200,
+       "basico": false
+      },
+      {
+       "nombre": "Fideos 400 g",
+       "cantidad": "1 puñado",
+       "precio": 0,
+       "basico": false
+      },
+      {
+       "nombre": "Cebolla",
+       "cantidad": "1/2 unidad",
+       "precio": 150,
+       "basico": false
+      }
+     ],
+     "pasos": [
+      "Pica todo en cubos chicos.",
+      "Hierve en 1 litro de agua con sal 15 minutos.",
+      "Agrega los fideos los últimos 7 minutos."
+     ]
     }
    ]
   },
   {
    "tipo": "ENTRENO",
    "datos": {
-    "nombre": "En casa · fase 1",
+    "nombre": "En casa · transformación (fase 1)",
     "revisarCada": 28,
     "sesiones": [
      {
       "dia": "lunes",
-      "titulo": "Cuerpo completo A",
+      "titulo": "Tren superior A",
+      "ejercicios": [
+       {
+        "nombre": "Calentar: brazos, hombros y 20 saltos",
+        "series": 1,
+        "reps": "3 min"
+       },
+       {
+        "nombre": "Flexiones",
+        "series": 4,
+        "reps": "máx. menos 2",
+        "nota": "con rodillas si cuesta"
+       },
+       {
+        "nombre": "Remo con mochila cargada",
+        "series": 4,
+        "reps": "12"
+       },
+       {
+        "nombre": "Flexiones pica (hombros)",
+        "series": 3,
+        "reps": "8"
+       },
+       {
+        "nombre": "Fondos en silla",
+        "series": 3,
+        "reps": "10"
+       },
+       {
+        "nombre": "Curl de bíceps con mochila",
+        "series": 3,
+        "reps": "12"
+       },
+       {
+        "nombre": "Plancha",
+        "series": 3,
+        "reps": "40 s"
+       }
+      ]
+     },
+     {
+      "dia": "martes",
+      "titulo": "Tren inferior A",
       "ejercicios": [
        {
         "nombre": "Calentar: trote en el lugar",
@@ -1000,41 +1297,19 @@
         "reps": "3 min"
        },
        {
-        "nombre": "Sentadillas",
-        "series": 3,
+        "nombre": "Sentadilla lenta (3 s bajando)",
+        "series": 4,
         "reps": "15"
        },
        {
-        "nombre": "Flexiones",
-        "series": 3,
-        "reps": "8-12",
-        "nota": "con rodillas si cuesta"
-       },
-       {
-        "nombre": "Zancadas",
+        "nombre": "Zancada hacia atrás",
         "series": 3,
         "reps": "10 por pierna"
        },
        {
-        "nombre": "Fondos en silla",
-        "series": 3,
-        "reps": "8-10"
-       },
-       {
-        "nombre": "Plancha",
-        "series": 3,
-        "reps": "30 s"
-       }
-      ]
-     },
-     {
-      "dia": "miércoles",
-      "titulo": "Cuerpo completo B",
-      "ejercicios": [
-       {
-        "nombre": "Calentar: saltos suaves",
-        "series": 1,
-        "reps": "3 min"
+        "nombre": "Puente de glúteo",
+        "series": 4,
+        "reps": "15"
        },
        {
         "nombre": "Sentadilla búlgara en silla",
@@ -1042,50 +1317,87 @@
         "reps": "8 por pierna"
        },
        {
-        "nombre": "Flexiones inclinadas en mesa",
-        "series": 3,
-        "reps": "10-12"
+        "nombre": "Elevación de talones",
+        "series": 4,
+        "reps": "20"
        },
        {
-        "nombre": "Puente de glúteo",
+        "nombre": "Hollow hold (abdomen)",
         "series": 3,
-        "reps": "15"
+        "reps": "20 s"
+       }
+      ]
+     },
+     {
+      "dia": "jueves",
+      "titulo": "Tren superior B",
+      "ejercicios": [
+       {
+        "nombre": "Calentar: brazos y hombros",
+        "series": 1,
+        "reps": "3 min"
        },
        {
-        "nombre": "Remo con mochila cargada",
+        "nombre": "Flexiones diamante o inclinadas",
+        "series": 4,
+        "reps": "8-12"
+       },
+       {
+        "nombre": "Remo invertido bajo la mesa",
+        "series": 4,
+        "reps": "8-10",
+        "nota": "mesa firme"
+       },
+       {
+        "nombre": "Press pica",
+        "series": 3,
+        "reps": "8"
+       },
+       {
+        "nombre": "Fondos en silla",
+        "series": 3,
+        "reps": "12"
+       },
+       {
+        "nombre": "Superman",
         "series": 3,
         "reps": "12"
        },
        {
         "nombre": "Plancha lateral",
         "series": 3,
-        "reps": "20 s por lado"
+        "reps": "25 s por lado"
        }
       ]
      },
      {
       "dia": "viernes",
-      "titulo": "Circuito de energía",
+      "titulo": "Piernas y abdomen",
       "ejercicios": [
        {
-        "nombre": "Calentar: trote en el lugar",
+        "nombre": "Calentar: trote y saltos suaves",
         "series": 1,
         "reps": "3 min"
        },
        {
-        "nombre": "Burpees",
-        "series": 3,
-        "reps": "8"
-       },
-       {
         "nombre": "Sentadilla con salto",
-        "series": 3,
+        "series": 4,
         "reps": "10"
        },
        {
-        "nombre": "Flexiones",
+        "nombre": "Zancadas caminando",
         "series": 3,
-        "reps": "al máximo menos 2"
+        "reps": "12 por pierna"
+       },
+       {
+        "nombre": "Puente a una pierna",
+        "series": 3,
+        "reps": "10 por pierna"
+       },
+       {
+        "nombre": "Sentadilla isométrica en la pared",
+        "series": 3,
+        "reps": "40 s"
        },
        {
         "nombre": "Escaladores",
@@ -1093,12 +1405,112 @@
         "reps": "30 s"
        },
        {
-        "nombre": "Superman",
+        "nombre": "Crunch bicicleta",
         "series": 3,
-        "reps": "12"
+        "reps": "20"
        }
       ]
      }
+    ]
+   }
+  },
+  {
+   "tipo": "MASCOTAS",
+   "datos": {
+    "mascotas": [
+     {
+      "nombre": "Perrita",
+      "tipo": "perro",
+      "nota": "Yorkshire"
+     },
+     {
+      "nombre": "Gato 1",
+      "tipo": "gato"
+     },
+     {
+      "nombre": "Gato 2",
+      "tipo": "gato"
+     }
+    ],
+    "comida": {
+     "nombre": "Saco de 45 kg (los tres)",
+     "kilos": 45,
+     "precio": 50000,
+     "dias": 105
+    },
+    "cuidados": [
+     {
+      "titulo": "Paseo de la perrita",
+      "mascota": "Perrita",
+      "cada": 1
+     },
+     {
+      "titulo": "Bañar a la perrita",
+      "mascota": "Perrita",
+      "cada": 14
+     },
+     {
+      "titulo": "Corte de pelo de la perrita",
+      "mascota": "Perrita",
+      "cada": 45,
+      "costo": 15000
+     },
+     {
+      "titulo": "Desparasitar a los tres",
+      "mascota": "todos",
+      "cada": 90
+     },
+     {
+      "titulo": "Pasar el rodillo quita pelos al sofá",
+      "mascota": "todos",
+      "cada": 3
+     }
+    ],
+    "higiene": [
+     {
+      "nombre": "Desodorante para mascotas"
+     },
+     {
+      "nombre": "Neutralizador de olores para la casa"
+     },
+     {
+      "nombre": "Rodillo quita pelos"
+     },
+     {
+      "nombre": "Shampoo para perros"
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "VER",
+   "datos": [
+    "Star Wars (en orden)",
+    "El Señor de los Anillos",
+    "Better Call Saul",
+    "Arcane"
+   ]
+  },
+  {
+   "tipo": "TEMPORADA",
+   "datos": {
+    "boveda": 5,
+    "metaEntrenosMes": 16
+   }
+  },
+  {
+   "tipo": "SALIDA",
+   "datos": {
+    "traslado": 30,
+    "prepararse": 30,
+    "lista": [
+     "Llaves",
+     "Billetera o tarjeta",
+     "Celular cargado",
+     "Audífonos",
+     "Uniforme o delantal",
+     "Cargador",
+     "Tarjeta bip o plata para la micro"
     ]
    }
   }

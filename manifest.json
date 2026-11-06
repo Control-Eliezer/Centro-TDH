@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Centro de Control TDAH",
   "short_name": "Centro TDAH",
-  "description": "Tu día, agenda, dinero, compras y cuerpo en un solo lugar. Hecha para cabezas con TDAH: orden, datos y cero culpa.",
+  "description": "Tu día, agenda, mente, dinero, casa y cuerpo en un solo lugar. Hecha para cabezas con TDAH: orden, datos y calma.",
   "lang": "es-CL",
   "dir": "ltr",
   "start_url": "./?source=pwa",
@@ -52,9 +52,9 @@
       ]
     },
     {
-      "name": "Agendar algo",
-      "short_name": "Agenda",
-      "url": "./?tab=agenda",
+      "name": "Mente: cómo me siento",
+      "short_name": "Mente",
+      "url": "./?tab=mente",
       "icons": [
         {
           "src": "icon-192.png",
@@ -74,9 +74,9 @@
       ]
     },
     {
-      "name": "Lista de compras",
-      "short_name": "Compras",
-      "url": "./?tab=compras",
+      "name": "Casa y compras",
+      "short_name": "Casa",
+      "url": "./?tab=casa",
       "icons": [
         {
           "src": "icon-192.png",
